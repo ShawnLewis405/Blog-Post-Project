@@ -7,6 +7,7 @@ body {
     font-family: "Mukta Malar", sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +19,7 @@ h1 {
     font-size: 80px;
     font-weight: 400;
     letter-spacing: -1.5px;
+    margin: 0;
 }
 
 h2 {
@@ -95,4 +97,54 @@ code {
     display: block;
     font-weight: 500;
     margin-left: 20px;
+}
+
+footer {
+    background-color: #863ae8;   
+}
+
+footer ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 28px 0;
+    
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 16px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+    
+}
+
+.hero{
+    background-color: #863ae8;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1, .hero p {
+    width: 75%;
+    max-width: 900px;
+    margin: 16px 0;
+}
+.hero hr {
+    width: 50%;
+    margin: 32px 0;
 }
